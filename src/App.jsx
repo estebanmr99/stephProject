@@ -45,17 +45,17 @@ const App = () => {
           imageUrl={ursinho_pandinha_ok}
           bgColor={colors.red}
           textColor={colors.white}
-          title="Estes são Ursinho e Pandinha"
-          text="Eles se conhecem a um bom tempo, e foram amigos, mas hoje são além disso... eles estão namorando."
-          btnText="Saiba mais"
+          title="Eres una gran amiga"
+          text="Desde que te conocí siempre supe que como amiga eras de las mejores y quiero seguirte llamando amiga"
+          btnText="Continuar"
           sequency="1"
         />
         <Screen
           imageUrl={ursinho_estudando}
           bgColor={colors.blue}
           textColor={colors.white}
-          title="Ursinho"
-          text="O ursinho é muito estudioso e engraçado sempre faz a pandinha rir, mas ele é bem lerdo e nem sempre entende o que a padinha quer dizer."
+          title="Me quieres como soy"
+          text="Soy una persona complicada y así como soy de complicado aprendiste a quererme tal cual soy y me aceptaste"
           btnText="Continuar"
           sequency="2"
         />
@@ -63,8 +63,8 @@ const App = () => {
           imageUrl={pandinha}
           bgColor={colors.pink}
           textColor={colors.white}
-          title="Pandinha"
-          text="A pandinha é muito fofinha, sempre se preocupa com o próximo, mas ela não tem paciência alguma. E tem um jeito diferente de mostrar o que sente..."
+          title="Me encanta tu personalidad"
+          text="Así como eres de divertida, de amorosa, de atenta me gustas"
           btnText="Continuar"
           sequency="3"
         />
@@ -72,8 +72,8 @@ const App = () => {
           imageUrl={ursinho_S2_pandinha}
           bgColor={colors.red}
           textColor={colors.white}
-          title="Ursinho S2 Pandinha"
-          text="Como ja disse, esses dois hoje são namorados, eles não são perfeitos... mas sempre se ajudam e superam os problemas juntos."
+          title="Lo chineada nunca falla"
+          text="Eres la chineada que siempre quiero tener a mi lado, siempre esperes el famoso 'Princess treat'"
           btnText="Continuar"
           sequency="4"
         />
@@ -81,8 +81,8 @@ const App = () => {
           imageUrl={ursinha_chorando}
           bgColor={colors.purple}
           textColor={colors.white}
-          title="Pandinha triste"
-          text="As vezes a pandinha fica triste com algumas coisas, e fica chorando e triste... :( Mas o ursinho sempre vem tentar animar ela e quase sempre consegue fazer ela rir"
+          title="Me dejas verte como eres"
+          text="Tal vez otros te ven muy fuerte y siempre capaz con todo pero todos somos humanos y tu me dejas ver ese lado fragil tuyo"
           btnText="Continuar"
           sequency="5"
         />
@@ -90,8 +90,8 @@ const App = () => {
           imageUrl={ursinho_chorando}
           bgColor={colors.green}
           textColor={colors.white}
-          title="Ursinho triste"
-          text="As vezes é o ursinho que fica triste com alguns problemas, e ai a pandinha vem com seu amorzinho e fofura e ajuda o ursinho quando ele ta tristinho. :)"
+          title="Estas para mi cuando lo necesito"
+          text="Cuando me he puesto triste tu siempre me cuidaste y me abrazaste"
           btnText="Continuar"
           sequency="6"
         />
@@ -99,8 +99,8 @@ const App = () => {
           imageUrl={pandinha_martelo}
           bgColor={colors.blue}
           textColor={colors.white}
-          title="Ursinho lerdo"
-          text="O ursinho é lerdo e as vezes não entende o que a pandinha quis dizer exatamente, e entende totalmente diferente..."
+          title="Me haces ser mejor persona"
+          text="Me regañas y me llamas la atención haciendome crecer pero tambien siempre aprendo de ti y de como actuas"
           btnText="Continuar"
           sequency="7"
         />
@@ -108,8 +108,8 @@ const App = () => {
           imageUrl={pandinha_brava}
           bgColor={colors.yellow}
           textColor={colors.white}
-          title="Pandinha e sua paciência"
-          text="A pandinha é MUITO AMOROSA, mas a falta de paciência é igual... e as vezes ela fica irritada porquê o ursinho é lerdo."
+          title="Me gustan tus enojos"
+          text="No hay mucho que decir, a veces soy un caso especial y tu me soportas asi jaja"
           btnText="Continuar"
           sequency="8"
         />
@@ -117,8 +117,8 @@ const App = () => {
           imageUrl={ursinho_catucando_pandinha}
           bgColor={colors.purple}
           textColor={colors.white}
-          title="Insistência do ursinho"
-          text="A pandinha não gosta de ser direta, ai o ursinho vai perturbar a pandinha até ela falar..."
+          title="Me tienes paciencia2"
+          text="No hay mucho que decir,2 a veces soy un caso especial y tu me soportas asi jaja"
           btnText="Continuar"
           sequency="9"
         />
@@ -126,26 +126,26 @@ const App = () => {
           imageUrl={ursinho_coracao}
           bgColor={colors.blue}
           textColor={colors.white}
-          title="O amor do ursinho"
-          text="Ai o ursinho depois de horas tentando explicar, pede desculpas por ser lerdo e fala o quanto ama a pandinha."
-          btnText="Owwwwn <3"
+          title="Todo mi cariño siempre es para ti"
+          text="No soy para nada alguien amoroso o cariñoso pero siempre logras sacar ese lado mio"
+          btnText="Owwww <3"
           sequency="10"
         />
         <Screen
           imageUrl={pandinha_coracao}
           bgColor={colors.yellow}
           textColor={colors.white}
-          title="O amor da pandinha"
-          text="A pandinha por trás de toda sua falta de paciência tambem ama o ursinho, e caba falando que ama ele tambem."
-          btnText="Owwwwn <3"
+          title="Romantica en todo momento"
+          text="Eres super mega romantica y demuestras tu cariño o afecto de maneras maravillosas"
+          btnText="Owwww <3"
           sequency="11"
         />
         <Screen
           imageUrl={ursinhos_apaixonados}
           bgColor={colors.red}
           textColor={colors.white}
-          title="Depois disso..."
-          text="Depois de tudo resolvido, os dois ficam bem e ficam felizes... e fazem muitas coisas juntos como amigos e namorados que são."
+          title="Tienes perseverancia"
+          text="De no ser por tu perseverancia y tenacidad al principio no estariamos acá"
           btnText="Continuar"
           sequency="12"
         />
@@ -153,63 +153,63 @@ const App = () => {
           imageUrl={ursinhos_caminhada}
           bgColor={colors.pink}
           textColor={colors.white}
-          title="Eles caminham juntos"
-          text="Os dois adoram caminhar juntos, riem bastante principalmente das 'zinimiga' da pandinha. ~risos"
-          btnText="Caminhando..."
+          title="Nos justa pasar siempre el tiempo juntos"
+          text="Contigo el tiempo siempre se pasa super rapido, es divertido y siempre acogedor"
+          btnText="Continuar"
           sequency="13"
         />
         <Screen
           imageUrl={ursinhos_fotinha}
           bgColor={colors.green}
           textColor={colors.white}
-          title="Hoje eles tiram fotos juntos"
-          text="A pandinha quer sair perfeitinha nas fotos sempre pede para o ursinho tirar de novo ~risos"
-          btnText="Mais fotinhas..."
+          title="Porque me obligas a hacer cosas nuevas"
+          text="Contigo he hecho muchas cosas nuevas y tomarme mas fotos ha sido una de ellas"
+          btnText="Continuar"
           sequency="14"
         />
         <Screen
           imageUrl={ursinhos_bebida}
           bgColor={colors.purple}
           textColor={colors.white}
-          title="Bebem juntos"
-          text="Ursinho e pandinha adoram beber juntos, e curtir os bons momentos com algumas músicas"
-          btnText="bebidas depois..."
+          title="Buena compañera de tragos"
+          text="Soy alguien quien no sale a nunca y menos a tomar pero contigo ese tiempo siempre es excelente y se disfruta la compañia tuya"
+          btnText="Continuar"
           sequency="15"
         />
         <Screen
           imageUrl={ursinha_mordidas}
           bgColor={colors.blue}
           textColor={colors.white}
-          title="A ursinha fica brincando com o ursinho"
-          text="Parece divertido olhando assim hahaha ... para a ursinha é claro... olha o coitado do ursinho, olha a cara pandinha! ~coitado_gente"
-          btnText="Mordidas depois..."
+          title="Eres energetica"
+          text="Yo siempre tengo pereza y ando cansado pero contigo esa energia se contagia y siempre mi actitud cambia contigo cerca"
+          btnText="Continuar"
           sequency="16"
         />
         <Screen
           imageUrl={ursinho_pegando_no_sono}
           bgColor={colors.purple}
           textColor={colors.white}
-          title="A noite"
-          text="Mas todos os dias, quando o ursinho não aguenta mais ficar acordado convernsando com a pandinha, eles se despedem e fingem dormir juntinhos"
-          btnText="Cochiladas mais tarde..."
+          title="Eres la primera y la ultima con la que hablo"
+          text="No suelo hablar mucho por mensajes pero contigo podria hacerlo donde sea y como sea porque me gusta tenerte siempre en cuenta en mi dia a dia"
+          btnText="Continuar"
           sequency="17"
         />
         <Screen
           imageUrl={ursinhos_dormindo}
           bgColor={colors.blue}
           textColor={colors.white}
-          title="E finalmente dormem"
-          text="Viu eles tem momentos dificeis as vezes, e choram, e ficam irritados... mas quando tudo fica no seu lugar, eles se amam bastante e riem."
-          btnText="Eles dormem"
+          title="Duermo comodamente contigo"
+          text="Es una estupides? Sí pero si duermo tan bien junto a ti es porque tienes mi confianza absoluta"
+          btnText="Continuar"
           sequency="18"
         />
         <Screen
           imageUrl={eddyS2Lidiane}
           bgColor={colors.red}
           textColor={colors.white}
-          title="Feliz dia dos namorados"
-          text="Finalmente pensei em algo que ninguem nunca lhe deu e que nunca dei a alguem... Espero que tenha gostado. Te amo Lidiane como nunca Amei alguem... ~Eddy"
-          btnText="Fim"
+          title="Me haces feliz"
+          text="Te convertiste en la razon porque la que le sonrio a los mensajes en el celular, la razon por la cual me recargas las energias cuando estoy contigo"
+          btnText="Última razón tan tan tan..."
           sequency="19"
         />
       </div>

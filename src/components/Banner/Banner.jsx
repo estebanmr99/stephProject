@@ -1,5 +1,6 @@
 /* eslint-disable react/no-unknown-property */
 import { useState, useEffect } from 'react';
+import { Link } from 'react-scroll';
 import { Container, Row, Col } from 'react-bootstrap';
 import headerImg from '../../assets/img/header-img.svg';
 import { ArrowRightCircle } from 'react-bootstrap-icons';
@@ -11,8 +12,8 @@ export const Banner = () => {
   const [isDeleting, setIsDeleting] = useState(false);
   const [text, setText] = useState('');
   const [delta, setDelta] = useState(300 - Math.random() * 100);
-  const toRotate = ['Web Developer', 'Web Designer', 'UI/UX Designer'];
-  const period = 2000;
+  const toRotate = ['quieres ser mi novia?', 'sí?', 'no hay opción de no'];
+  const period = 3000;
 
   useEffect(() => {
     let ticker = setInterval(() => {
@@ -53,25 +54,36 @@ export const Banner = () => {
             <TrackVisibility>
               {({ isVisible }) => (
                 <div className={isVisible ? 'animate__animated animate__fadeIn' : ''}>
-                  <span className="tagline">Welcome to my Portfolio</span>
+                  <span className="tagline">Última razón</span>
                   <h1>
-                    {`Hi! I'm Judy`}{' '}
+                    {`Hola, `}{' '}
                     <span
                       className="txt-rotate"
-                      dataPeriod="1000"
-                      data-rotate='[ "Web Developer", "Web Designer", "UI/UX Designer" ]'
+                      dataPeriod="3000"
+                      data-rotate='[ "quieres ser mi novia?", "sí?", "no hay opción de no" ]'
                     >
                       <span className="wrap">{text}</span>
                     </span>
                   </h1>
                   <p>
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-                    industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type
-                    and scrambled it to make a type specimen book.
+                    No importa el tiempo que pase contigo, siempre voy a querer más tiempo contigo. Todas las razones
+                    por las que te amo son razones por las cuales quiero que seas mi novia. Quiero seguirte conociendo y
+                    teniendo a mi lado.
                   </p>
-                  <button onClick={() => console.log('connect')}>
-                    Lets Connect <ArrowRightCircle size={25} />
-                  </button>
+                  <Link
+                    activeClass="active"
+                    to={1}
+                    spy={true}
+                    smooth={true}
+                    offset={0}
+                    duration={1200}
+                    ignoreCancelEvents={true}
+                    style={{ color: 'black' }}
+                  >
+                    <button onClick={() => console.log('connect')}>
+                      Volver al principio <ArrowRightCircle size={25} />
+                    </button>
+                  </Link>
                 </div>
               )}
             </TrackVisibility>
