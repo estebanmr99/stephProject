@@ -1,10 +1,9 @@
-/* eslint-disable no-unused-vars */
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import './App.scss';
 
 import colors from './utils/colors';
 import Screen from './components/Screen/Screen';
-import { Banner } from './components/Banner/Banner';
+import Banner from './components/Banner/Banner';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import ursinho_pandinha_ok from './assets/img/ursinho_pandinha_ok.gif';
@@ -27,15 +26,7 @@ import ursinho_pegando_no_sono from './assets/img/ursinho_pegando_no_sono.gif';
 import ursinhos_dormindo from './assets/img/ursinhos_dormindo.gif';
 import eddyS2Lidiane from './assets/img/eddyS2Lidiane.jpeg';
 
-import useSharedStore from './stateManagement/sharedStore';
-
 const App = () => {
-  const [displayScreen1, setDisplayScreen1] = useState(true);
-  // const test2 = useSharedStore((state) => state.test2);
-
-  // useEffect(() => {
-  // setDisplayScreen1(false);
-  // }, [test2]);
   document.body.style.overflow = 'hidden';
 
   return (
