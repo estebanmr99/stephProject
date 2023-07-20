@@ -13,7 +13,7 @@ export const Banner = () => {
   const [text, setText] = useState('');
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const toRotate = ['quieres ser mi novia?', 'sí?', 'no hay opción de no'];
-  const period = 2000;
+  const period = 1000;
 
   useEffect(() => {
     let ticker = setInterval(() => {
@@ -59,7 +59,7 @@ export const Banner = () => {
                     {`Hola, `}{' '}
                     <span
                       className="txt-rotate"
-                      dataPeriod="2000"
+                      dataPeriod="1000"
                       data-rotate='[ "quieres ser mi novia?", "sí?", "no hay opción de no" ]'
                     >
                       <span className="wrap">{text}</span>
