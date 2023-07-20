@@ -10,3 +10,5 @@ npm add -D sass
 
 optional: npm install --save-dev eslint-plugin-hexagonal-architecture
     https://github.com/CodelyTV/eslint-plugin-hexagonal-architecture
+
+deploy a vite app: https://dev.to/rashidshamloo/deploying-vite-react-app-to-github-pages-35hf
